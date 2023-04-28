@@ -1,0 +1,56 @@
+#logo{
+    position:absolute;
+    left:20px;
+    top:20px;
+}
+
+.heading{
+    position:absolute;
+    left:50px;
+    top:60px;
+    color:#d93025;
+    font-size:20px;
+}
+
+body{
+    font-family: arial,sans-serif;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 120px;
+}
+
+.image-heading{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.text-box{
+    display: flex;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+input{
+    height:25px;
+    width:700px;
+    margin-left: 80px;
+    outline:none
+}
+
+input:focus-visible{
+    box-shadow: inset 0px 0px 3px 0px blue;
+}
+
+#button{
+    height: 30px;
+    width: 120px;
+    border: none;
+    margin-top:30px;
+    margin-left:650px;
+    border-radius: 1px;
+    font-family: arial, sans-serif;
+    background-color: #357ae8;
+    color:white
+}
